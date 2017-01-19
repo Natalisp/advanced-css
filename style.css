@@ -7,8 +7,9 @@ p {
   margin: 0;
 }
 
+/*DYNAMIC SIZING*/
 
-section {
+.Box section {
   width: 100vw;
   height: 100vh;
 
@@ -22,20 +23,43 @@ section {
   background-attachment: fixed;
 }
 
-section:nth-of-type(1) {
+.Box section:nth-of-type(1) {
   background-image: url('https://unsplash.it/1024/683?image=1082');
 }
-section:nth-of-type(2) {
+.Box section:nth-of-type(2) {
   background-image: url('https://unsplash.it/1024/683?image=1071');
 }
-section:nth-of-type(3) {
+.Box section:nth-of-type(3) {
   background-image: url('https://unsplash.it/1024/683?image=1077');
 }
-section:nth-of-type(4) {
+.Box section:nth-of-type(4) {
   background-image: url('https://unsplash.it/1024/683?image=1064');
 }
+
+/*BUTTON*/
 
 button {
   color: white;
   background-color: unset;
+}
+
+/*FLUID COLUMNS*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+}
+
+section {
+  padding: 0 2em;
+  margin: 0 auto;
+}
+
+nav {
+  -webkit-columns: 4 100px;
 }

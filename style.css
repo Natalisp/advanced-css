@@ -34,3 +34,8 @@ section:nth-of-type(3) {
 section:nth-of-type(4) {
   background-image: url('https://unsplash.it/1024/683?image=1064');
 }
+
+button {
+  color: white;
+  background-color: unset;
+}

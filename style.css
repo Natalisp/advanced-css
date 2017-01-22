@@ -61,5 +61,16 @@ section {
 }
 
 nav {
-  -webkit-columns: 4 100px;
+  columns: 4 100px;
+}
+
+/*IMAGE*/
+
+img {
+  width: 90vw;
+  height: 75vh;
+  border: 2px solid tomato;
+  object-fit: cover;
+  object-position: 50% 50%;
+
 }
